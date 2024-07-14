@@ -37,10 +37,6 @@ body {
     border-width: 0;
    
 }
-.tarjetas-row {
-    padding-left: 8rem;
-    padding-right: 8rem;
-}
 .c-head {
     background-color: rgb(155, 155, 190);
     text-align: center;
@@ -65,12 +61,11 @@ color: rgb(245, 245, 245);
 
 .tarjetas2 {
     background-color: rgb(155, 155, 190);
-    margin: 0 auto;
     color: rgb(245, 245, 245);
     width: 18rem;
     border-radius: 0px;
     border: 0px;
-    margin-bottom: 1rem;
+    
 }
 .card-title {
     font-family: "Abril Fatface", serif;
@@ -140,6 +135,7 @@ color: rgb(245, 245, 245);
 #submit {
     background-color: rgb(250, 190, 135);
 }
+
 /*media query*/
 
 @media screen and (max-width: 768px) {
@@ -153,29 +149,3 @@ color: rgb(245, 245, 245);
     }
     
 }
-@media (min-width: 768px) and (max-width: 992px) {
-    .tarjetas-row {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-    .tarjetas2 {
-        width: 10rem;
-    }
-}
-@media (min-width: 992px) and (max-width: 1440px) {
-    .tarjetas2 {
-        width: 14rem;
-    }   
-}
-@media (min-width: 1440px) {
-    .tarjetas-row {
-        padding-left: 4rem;
-        padding-right: 4rem;
-    }
-    .tarjetas2 {
-        width: 18rem;
-    } 
-}
-
-
-    
