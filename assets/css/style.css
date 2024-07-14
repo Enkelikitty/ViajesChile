@@ -133,7 +133,8 @@ color: rgb(245, 245, 245);
 #submit {
     background-color: rgb(250, 190, 135);
 }
-/*media querys*/
+/*media query*/
+
 @media screen and (max-width: 768px) {
     .navbar-brand {
         margin-left: 1rem;
