@@ -9,7 +9,7 @@ body {
 }
 .navbar-brand {
     font-family: "Abril Fatface", serif;
-    margin-left: 6rem;
+    margin-left: 10%;
 }
 .navbar-nav {
     margin-right: 6rem;
@@ -143,12 +143,6 @@ color: rgb(245, 245, 245);
 /*media query*/
 
 @media screen and (max-width: 768px) {
-    .navbar-brand {
-        margin-left: 1rem;
-    }
-    .navbar-nav {
-        margin-right: 1rem;
-    }
     .form1 {
         margin-left: 1rem;
         margin-right: 1rem;
