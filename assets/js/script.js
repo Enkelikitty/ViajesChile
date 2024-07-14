@@ -24,7 +24,7 @@ var tooltipTriggerList =
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 return new bootstrap.Tooltip(tooltipTriggerEl)
 })
-//deshabilitar boton enviar contacto
+//deshabilitar botón enviar contacto
 $(document).ready(function() {
     $('.form-control').on('input change', function() {
         if($(this).val() != '') {
