@@ -17,7 +17,7 @@ body {
 .BgColour {
     color: rgb(255, 255, 255);
     transition: all 1s;
-    background-color: rgb(45, 50, 80);
+    background-color: rgba(45, 50, 80, 0.9);
 }
 /*quienes somos*/
 .titulos {
@@ -62,7 +62,6 @@ color: rgb(245, 245, 245);
 .tarjetas2 {
     background-color: rgb(155, 155, 190);
     color: rgb(245, 245, 245);
-    width: 18rem;
     border-radius: 0px;
     border: 0px;
     
@@ -88,8 +87,8 @@ color: rgb(245, 245, 245);
     background-size: cover;
 }
 .form1 {
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 .form-label {
     color: white;
@@ -110,6 +109,7 @@ color: rgb(245, 245, 245);
 /*footer*/
 .footer {
     background-color: rgb(155, 155, 190);
+    color: rgb(245, 245, 245);
     padding-left: 8rem;
     padding-right: 8rem;
     padding-top: 2rem;
@@ -129,7 +129,7 @@ color: rgb(245, 245, 245);
     float: right;
 }
 .f-btn {
-    color: rgb(250, 190, 135);
+    color: rgb(245, 245, 245)
 }
 
 #submit {
@@ -149,3 +149,4 @@ color: rgb(245, 245, 245);
     }
     
 }
+ 
