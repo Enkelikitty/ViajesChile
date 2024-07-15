@@ -34,3 +34,12 @@ $(document).ready(function() {
         }
     });
 });
+
+//Color de título
+$(document).ready(function(){
+    $("#QS").hover(function(){
+      $("#QS").toggleClass("orange");
+    });
+  });
+
+  

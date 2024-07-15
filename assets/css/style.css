@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     background-color: rgb(45, 50, 80);
     font-family: "Lato", sans-serif;
@@ -58,6 +63,9 @@ color: rgb(245, 245, 245);
     color: rgb(245, 245, 245);
     border-width: 0;
 }
+.orange {
+    color: rgb(250, 190, 135);
+}
 
 /*destacados*/
 
@@ -105,7 +113,12 @@ color: rgb(245, 245, 245);
 .msje {
     height: 400px;
 }
-.btn-primary {
+   
+
+#submit {
+    background-color: rgb(155, 155, 190);
+}
+.fondo-orange {
     background-color: rgb(250, 190, 135);
 }
 /*footer*/
@@ -134,9 +147,7 @@ color: rgb(245, 245, 245);
     color: rgb(245, 245, 245)
 }
 
-#submit {
-    background-color: rgb(250, 190, 135);
-}
+
 
 /*media query*/
 
